@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Selection</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 30px;
+            font-family: 'Courier';
+            background-color:#ffe8e9;
+            color: #ff6c6c;
+        }
+        #foodquestion {
+            font-size: 50px;
+            margin-bottom: 30px;
+        }
+        .food-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #ff6c6c;
+        }
+        .food-item img {
+            width: 220px; 
+            height: auto;
+			padding: 10px;
+        }
+        .food-item label {
+            display: block;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#ff6c6c;
+            color: #ffffff;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+    </style>
+</head>
+<body>
+    <div id="foodquestion"><b><u>What would you like to eat babe?</u></b></div>
+    
+    <div class="food-selection">
+        <div class="food-item">
+            <img src="food/Italian.jpg" alt="Italian">
+            <label><input type="checkbox" name="food" value="Italian"> Italian</label>
+        </div>
+        <div class="food-item">
+            <img src="food/Korean.jpg" alt="Korean">
+            <label><input type="checkbox" name="food" value="Korean"> Korean</label>
+        </div>
+        <div class="food-item">
+            <img src="food/Georgian.jpeg" alt="Georgian">
+            <label><input type="checkbox" name="food" value="Georgian"> Georgian</label>
+        </div>
+        <div class="food-item">
+            <img src="food/American.jpeg" alt="American">
+            <label><input type="checkbox" name="food" value="American"> American</label>
+        </div>
+       
+        <div class="food-item">
+            <img src="food/Japanese.jpg" alt="Japanese">
+            <label><input type="checkbox" name="food" value="Japanese"> Japanese</label>
+        </div>
+       
+        <div class="food-item">
+            <img src="food/French.jpg" alt="French">
+            <label><input type="checkbox" name="food" value="French"> French</label>
+        </div>
+        <div class="food-item">
+            <img src="food/Greek.webp" alt="Greek">
+            <label><input type="checkbox" name="food" value="Greek"> Greek</label>
+        </div>
+        <div class="food-item">
+            <img src="food/Indian.jpg" alt="Indian">
+            <label><input type="checkbox" name="food" value="Indian"> Indian</label>
+        </div>
+    </div>
+    <button class ="button"onclick="location.href='dessert.html'">Submit</button>
+    
+</body>
+</html>

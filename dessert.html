@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dessert</title>
+	<style>
+		body {
+			text-align: center;
+			margin-top: 30px;
+			font-family: courier;
+			background-color: #ffe8e9;
+			color: #ff6c6c;
+		}
+		#dessertquestion {
+			font-size: 50px;
+			margin-bottom: 30px;
+			font-weight: bold;
+		}
+		.dessert-item {
+			display: inline-table;
+			margin: 10px;
+			vertical-align: top;
+			color: #FF9494;
+		}
+		.dessert-item img {
+            width: 220px; 
+            height: auto;
+			padding: 10px;
+        }
+		.dessert-item label {
+            display: block;
+        }
+		.button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#ff6c6c;
+            color: #ffffff;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+	</style>
+</head>
+<body>
+	<div id = "dessertquestion"> Dessert?</div>
+	
+	<div class = "dessert-selection">
+		<div class = "dessert-item">
+			<img src = "food/Cinnamon.jpg" alt ="Cinnamon">
+			<label><input type="checkbox" name="dessert" value="Cinnamon"> Cinnamon</label>
+		</div>	
+		<div class = "dessert-item">
+			<img src = "food/churro.jpeg" alt ="churro">
+			<label><input type="checkbox" name="dessert" value="churro"> Churro</label>
+		</div>	
+		<div class = "dessert-item">
+			<img src = "food/Chimney.webp" alt ="Chimney">
+			<label><input type="checkbox" name="Chimney" value="che"> Chimney</label>
+		</div>	
+		<div class = "dessert-item">
+			<img src = "food/Mochi.jpg" alt ="mochi">
+			<label><input type="checkbox" name="dessert" value="mochi"> Mochi</label>
+		</div>	
+		<div class = "dessert-item">
+			<img src = "food/waffle.jpg" alt ="Belgian">
+			<label><input type="checkbox" name="dessert" value="Belgian"> Belgian Waffles</label>
+		</div>	
+		<div class = "dessert-item">
+			<img src = "food/Cheesecake.jpg" alt ="Cheesecake">
+			<label><input type="checkbox" name="dessert" value="Cheesecake"> Cheesecake</label>
+		</div>	
+	</div>
+	<button class = "button" onclick="location.href='activities.html'">Continue</button>
+
+</body>
+</html>

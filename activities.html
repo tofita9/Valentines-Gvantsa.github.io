@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>activities</title>
+	<style>
+		body {
+			text-align: center;
+            margin-top: 30px;
+            font-family: 'Courier';
+            background-color:#ffe8e9;
+            color: #FF9494;
+		}
+		#activityquestion {
+			font-size: 50px;
+            margin-bottom: 30px;
+		}
+		.activity-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #FF9494;
+        }
+        .activity-item img {
+            width: 220px; 
+            height: auto;
+			padding: 10px;
+        }
+        .activity-item label {
+            display: block;
+        }
+		.button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#ff6c6c;
+            color: #ffffff;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+	</style>
+</head>
+<body>
+	<div id="activityquestion"><b>What would you like to do after?</b>
+	</div>
+	<div class = "activities-selection">
+		<div class="activity-item">
+			<img src="activities/Bar.jpeg" alt ="Bar">
+			<label><input type="checkbox" name="activities" value ="Bar">Bar</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/arcade.jpg" alt ="arcade">
+			<label><input type="checkbox" name="activities" value ="arcade">Arcade</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/Netflix.avif" alt ="Netflix & Chill">
+			<label><input type="checkbox" name="activities" value ="Netflix & Chill">Netflix & Chill</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/walk.jpg" alt ="Walk">
+			<label><input type="checkbox" name="activities" value ="Walk">Walk</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/museum.jpg" alt ="Museum">
+			<label><input type="checkbox" name="activities" value ="Museum">Museum</label>
+		</div>
+		
+	</div>
+	<button class = "button" onclick="location.href='lastpage.html'">Done</button>
+</body>
+</html>
